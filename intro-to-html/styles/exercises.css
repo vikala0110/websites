@@ -1,0 +1,604 @@
+.price {
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button {
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: opacity 0.15s,
+        color 0.15s,
+        background-color 0.15s,
+        border-width 0.15s;
+}
+
+.cart-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.cart-button:hover {
+    background-color: rgb(242, 190, 0);
+}
+
+.cart-button:active {
+    opacity: 0.5;
+}
+
+.buy-button {
+    background-color: rgb(255, 164, 28);
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.buy-button:hover {
+    background-color: rgb(243, 99, 10);
+}
+
+.buy-button:active {
+    opacity: 0.5;
+}
+
+.amazon-link {
+    color: rgb(59, 102, 188);
+}
+
+.amazon-link:hover {
+    color: rgb(207, 134, 0);
+}
+
+.uber-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.uber-button:hover {
+    opacity: 0.7;
+}
+
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.amazon-button:hover {
+    background-color: rgb(224, 189, 17);
+}
+
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap-button {
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.bootstrap-button:hover {
+    background-color: rgb(87, 55, 136);
+}
+
+.bootstrap-button2 {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bootstrap-button2:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkedin-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.linkedin-button:hover {
+    background-color: rgb(2, 46, 90);
+}
+
+.linkedin-button2 {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border-color: rgb(10, 102, 194);
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.linkedin-button2:hover {
+    background-color: rgba(10, 102, 194, 0.1);
+    border-width: 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.page-num {
+    color: rgb(84, 0, 162);
+    text-decoration: underline;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.button-4h {
+    border-radius: 0px;
+    border-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.stretch-button {
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    transition: padding-right 1s,
+        padding-bottom 1s,
+        padding-left 1s,
+        padding-top 1s;
+}
+
+.stretch-button:hover {
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.click3d-button {
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.click3d-button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+.green-button {
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15s,
+        margin 0.15s;
+}
+
+.green-button:hover {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.ex5a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.ex5b-head {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 2px;
+}
+
+.ex5b-text {
+    font-family: Arial;
+    font-style: italic;
+    color: red;
+    margin-top: 2px;
+}
+
+.ex5c-head {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+
+.ex5c-subhead {
+    margin-top: 2px;
+    font-family: Verdana;
+    color: rgb(100, 100, 100);
+}
+
+.ex5c-text {
+    font-family: Verdana;
+    width: 300px;
+}
+
+.ex5c-button {
+    color: white;
+    background-color: green;
+    font-family: Verdana;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+
+.ex5d-head {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
+
+.ex5d-text {
+    font-family: Arial;
+    text-align: center;
+}
+
+.ex5d-link {
+    font-family: Arial;
+    color: rgb(10, 102, 194);
+    text-align: center;
+}
+
+.ex5e {
+    font-family: Arial;
+    text-align: center;
+}
+
+.ex5e-new {
+    font-size: 14px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 5px;
+}
+
+.ex5e-head {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.ex5e-head2 {
+    font-size: 34px;
+    font-weight: bolder;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.ex5e-price {
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.ex5e-button {
+    color: white;
+    background-color: royalblue;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+.ex5f {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.ex5fbig {
+    font-size: 34px;
+    color: black;
+    margin-right: 5px;
+}
+
+.ex5fgreen {
+    color: green;
+}
+
+.ex5fred {
+    margin-top: 0;
+    color: rgb(200, 0, 0);
+}
+.ex5g {
+    font-family: Arial;
+    color: black;
+    width: 500px;
+}
+
+.ex5ggray {
+    color: rgb(80, 80, 80);
+}
+
+.ex5gblue {
+    color: rgb(8, 112, 216);
+}
+
+.ex6d {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.ex6dhead {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.ex7 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    text-align: center;
+
+}
+.ex7a {
+    height: 200px;
+    border-radius: 20px;
+}
+
+.ex7b {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ex7c {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.ex7d {
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;   
+    margin-left: 20px;
+}
+
+.ex7e {
+    font-family: Arial;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-right: 300px;
+    margin-left: 20px;
+}
+
+.ex7f {
+    font-family: Arial;
+    color: rgb(50,50,50);
+    width: 405px;
+    margin-left: 200px;
+}
+
+.ex7finput {
+    width: 100%;
+    height: 25px;
+}
+
+.ex7fbutton {
+    font-size: 20px;
+    background-color:rgb(0, 92, 183);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.ex7g {
+    margin-left: 200px;
+}
+.ex7gimage {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 300px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.ex7ginput {
+    border: none;
+    font-size: 16px;
+}
+
+.ex7gbutton {
+    background-color: rgb(63, 148, 233);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.ex8ainput {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.ex8btext {
+    width: 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ex8cimage {
+    width: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: -20px;
+}
+
+.ex8cinput {
+    font-size: 16px;
+    margin-left: 200px;
+    margin-right: 300px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ex8d {
+    width: 300px;
+    margin-left: 300px;
+}
+.ex8dinput1 {
+    border-radius: 5px;
+    display: inline-block;
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.ex8dinput2 {
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(150, 150, 150);
+    display: block;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 55px;
+    margin-bottom: 10px;
+
+}
+
+.ex8dbutton {
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(5, 111, 216);
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 91px;;
+    padding-right: 91px;
+}
+
+.ex8e {
+    margin-left: 200px;
+    font-family: Arial;
+}
+
+.ex8ehead {
+    font-size: 34px;
+    margin-bottom: 25px;
+}
+
+.ex8einput {
+    display: block;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    background-color: rgb(240,240,240);
+}
+.ex8ebutton1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 0;
+}
+
+.ex8ebutton2 {
+    border: none;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
